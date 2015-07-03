@@ -1,0 +1,10 @@
+@font-face {
+  font-family: "mgs2menu";
+  font-weight: bold;
+  src: url("fonts/MGS2MENU.TTF");
+}
+/* line 10, ../sass/scss/_base.scss */
+body {
+  background-color: #000;
+  color: #AAA;
+}

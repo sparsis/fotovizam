@@ -1,0 +1,13 @@
+@mixin main-container($width: 1000px) {
+    display: block;
+    float: none;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: $width;
+}
+
+
+@mixin middle-container(){
+   @include main-container(998px)
+}

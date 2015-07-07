@@ -20,6 +20,14 @@ module.exports = function(grunt) {
                 files: {
                     '../assets/js/lib/jquery-2.1.4.min.js': ['../src/js/lib/jquery-2.1.4.js']
                 }
+            },
+            options: {
+                mangle: false
+            },
+            my_target: {
+                files: {
+                    '../assets/js/lib/bootstrap.min.js': ['../src/js/lib/bootstrap.js']
+                }
             }
         },
         imagemin: {                          

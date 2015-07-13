@@ -1,8 +1,44 @@
 @media (max-width: 360px) {
   /* line 4, ../sass/scss/_header.scss */
   #logo {
-    margin: auto;
-    width: 150px;
+    margin: 7px auto;
+    width: 87px;
+  }
+
+  /* line 9, ../sass/scss/_header.scss */
+  header {
+    background: linear-gradient(#9b0000, #6e0000);
+  }
+
+  /* line 13, ../sass/scss/_header.scss */
+  .icon-header {
+    color: #DFC3C3;
+    font-size: 17px;
+    margin: 7px auto;
+    display: block;
+    width: 18px;
+  }
+
+  /* line 20, ../sass/scss/_header.scss */
+  #mainMenuButton {
+    float: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* line 26, ../sass/scss/_header.scss */
+  .main-menu {
+    background: linear-gradient(#fff67d, #ffea00);
+  }
+
+  /* line 30, ../sass/scss/_header.scss */
+  .item-header:hover {
+    text-decoration: none;
+  }
+  /* line 32, ../sass/scss/_header.scss */
+  .item-header:hover .icon-header {
+    color: #FFF;
+    transition: color 2s;
   }
 }
 @font-face {

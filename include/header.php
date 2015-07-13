@@ -1,17 +1,33 @@
 <!-- Cabeçalho: Início -->
+		<!-- 
+			col-xs- : Extra small. < 768px
+			col-sm- : Small (tablets). >= 768px
+			col-md- : Medium (Desktops). >= 992px
+			col-lg- : Large (Desktops). >= 1200px
+		 -->
 <header>
-	<div class="container row">
+	<div class="row">
+		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+			<a class="item-header" href="#">
+				<span class="glyphicon glyphicon-user icon-header"></span>
+			</a>
+		</div>
 		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
 
 		</div>
-		<div class="col-xs-8 col-sm-2 col-md-2 col-lg-2">
+		<div class="col-xs-4 col-sm-2 col-md-12 col-lg-12">
 			<h1 id="logo">
 				<img alt="Foto Vizam" class="img-responsive" src="assets/images/logo.png" />
 			</h1>
 		</div>
 		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
-			<button class="navbar-toggle" type="button" data-target=".navbar-collapse" data-toggle="collapse">
-                <span class="glyphicon glyphicon-menu-hamburger"></span>
+			<a class="item-header" href="#">
+				<span class="glyphicon glyphicon-search icon-header"></span>
+			</a>
+		</div>
+		<div class="col-xs-2 col-sm-2 col-md-2 col-lg-2">
+			<button class="item-header navbar-toggle" id="mainMenuButton" type="button" data-target=".navbar-collapse" data-toggle="collapse">
+                <span class="glyphicon glyphicon-menu-hamburger icon-header"></span>
             </button>
 		</div>
 	</div>	

@@ -2,7 +2,37 @@
 
 @media(max-width: 360px) {
 	#logo {
-		margin: auto;
-		width: 150px;
+		margin: 7px auto;
+		width: 87px;
+	}
+
+	header {
+		background: linear-gradient(#9B0000, #6E0000);
+	}
+
+	.icon-header {
+		color: #DFC3C3;
+		font-size: 17px;
+		margin: 7px auto;
+		display: block;
+		width: 18px;
+	}
+	#mainMenuButton {
+		float: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	.main-menu {
+		background: linear-gradient(#FFF67D, #FFEA00);
+	}
+	.item-header {
+		&:hover {
+			text-decoration: none;
+			.icon-header {
+				color: #FFF;
+				transition: color 2s;
+			}
+		}
 	}
 }

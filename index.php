@@ -23,8 +23,8 @@
 		</div>
 
 		<?php include("include/footer.php") ?>
-	</body>
 
-	<script src="assets/js/lib/jquery-2.1.4.min.js"></script>
-	<script src="assets/js/lib/bootstrap.min.js"></script>
+		<script src="assets/js/lib/jquery-2.1.4.min.js"></script>
+		<script src="assets/js/lib/bootstrap.min.js"></script>
+	</body>
 </html>

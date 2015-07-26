@@ -5635,55 +5635,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
   margin-left: -1px;
 }
 
-/* line 3877, ../sass/scss/bootstrap.scss */
-.nav {
-  padding-left: 0;
-  margin-bottom: 0;
-  list-style: none;
-}
-
-/* line 3882, ../sass/scss/bootstrap.scss */
-.nav > li {
-  position: relative;
-  display: block;
-}
-
-/* line 3886, ../sass/scss/bootstrap.scss */
-.nav > li > a {
-  position: relative;
-  display: block;
-  padding: 10px 15px;
-}
-
-/* line 3891, ../sass/scss/bootstrap.scss */
-.nav > li > a:hover,
-.nav > li > a:focus {
-  text-decoration: none;
-  background-color: #eee;
-}
-
-/* line 3896, ../sass/scss/bootstrap.scss */
-.nav > li.disabled > a {
-  color: #777;
-}
-
-/* line 3899, ../sass/scss/bootstrap.scss */
-.nav > li.disabled > a:hover,
-.nav > li.disabled > a:focus {
-  color: #777;
-  text-decoration: none;
-  cursor: not-allowed;
-  background-color: transparent;
-}
-
-/* line 3906, ../sass/scss/bootstrap.scss */
-.nav .open > a,
-.nav .open > a:hover,
-.nav .open > a:focus {
-  background-color: #eee;
-  border-color: #337ab7;
-}
-
 /* line 3912, ../sass/scss/bootstrap.scss */
 .nav .nav-divider {
   height: 1px;
@@ -5695,41 +5646,6 @@ select[multiple].input-group-sm > .input-group-btn > .btn {
 /* line 3918, ../sass/scss/bootstrap.scss */
 .nav > li > a > img {
   max-width: none;
-}
-
-/* line 3921, ../sass/scss/bootstrap.scss */
-.nav-tabs {
-  border-bottom: 1px solid #ddd;
-}
-
-/* line 3924, ../sass/scss/bootstrap.scss */
-.nav-tabs > li {
-  float: left;
-  margin-bottom: -1px;
-}
-
-/* line 3928, ../sass/scss/bootstrap.scss */
-.nav-tabs > li > a {
-  margin-right: 2px;
-  line-height: 1.42857143;
-  border: 1px solid transparent;
-  border-radius: 4px 4px 0 0;
-}
-
-/* line 3934, ../sass/scss/bootstrap.scss */
-.nav-tabs > li > a:hover {
-  border-color: #eee #eee #ddd;
-}
-
-/* line 3937, ../sass/scss/bootstrap.scss */
-.nav-tabs > li.active > a,
-.nav-tabs > li.active > a:hover,
-.nav-tabs > li.active > a:focus {
-  color: #555;
-  cursor: default;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  border-bottom-color: transparent;
 }
 
 /* line 3946, ../sass/scss/bootstrap.scss */

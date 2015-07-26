@@ -1,48 +1,100 @@
 @media (max-width: 360px) {
   /* line 4, ../sass/scss/_header.scss */
   #logo {
-    margin: 7px auto;
+    margin: auto;
     width: 87px;
   }
-
-  /* line 9, ../sass/scss/_header.scss */
-  header {
-    background: linear-gradient(#9b0000, #6e0000);
+  /* line 7, ../sass/scss/_header.scss */
+  #logo a {
+    padding: 6px 0;
+  }
+  /* line 10, ../sass/scss/_header.scss */
+  #logo a:hover {
+    background: none;
   }
 
-  /* line 13, ../sass/scss/_header.scss */
-  .icon-header {
+  /* line 16, ../sass/scss/_header.scss */
+  header .mobile-only {
+    width: 100%;
+  }
+  /* line 19, ../sass/scss/_header.scss */
+  header .header-first-row {
+    background: linear-gradient(#9b0000, #6e0000);
+    height: 40px;
+  }
+  /* line 24, ../sass/scss/_header.scss */
+  header .list-header {
+    height: 100%;
+  }
+  /* line 26, ../sass/scss/_header.scss */
+  header .list-header .item-header {
+    border-left: 1px solid #620000;
+    float: left;
+    height: 100%;
+    width: 15%;
+  }
+  /* line 33, ../sass/scss/_header.scss */
+  header .list-header .item-header.active a, header .list-header .item-header.active a:active, header .list-header .item-header.active a:focus, header .list-header .item-header.active a:visited {
+    background: #620000;
+  }
+  /* line 38, ../sass/scss/_header.scss */
+  header .list-header .item-header a, header .list-header .item-header a:active, header .list-header .item-header a:focus, header .list-header .item-header a:visited {
+    display: block;
+    height: 100%;
+    padding: 8px 0;
+    text-decoration: none;
+    width: 100%;
+  }
+  /* line 45, ../sass/scss/_header.scss */
+  header .list-header .item-header a:hover {
+    background: #620000;
+    transition: 1s background;
+  }
+  /* line 48, ../sass/scss/_header.scss */
+  header .list-header .item-header a:hover .icon-header {
+    color: #FFF;
+    transition: color 2s;
+  }
+  /* line 53, ../sass/scss/_header.scss */
+  header .list-header .item-header.item-main {
+    width: 40%;
+  }
+  /* line 57, ../sass/scss/_header.scss */
+  header .list-header .item-header .icon-header {
     color: #DFC3C3;
     font-size: 17px;
-    margin: 7px auto;
+    margin: auto;
     display: block;
     width: 18px;
   }
 
-  /* line 20, ../sass/scss/_header.scss */
-  #mainMenuButton {
-    float: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  /* line 26, ../sass/scss/_header.scss */
+  /* line 67, ../sass/scss/_header.scss */
   .main-menu {
     background: linear-gradient(#fff67d, #ffea00);
   }
-
-  /* line 30, ../sass/scss/_header.scss */
-  .item-header:hover {
-    text-decoration: none;
-  }
-  /* line 32, ../sass/scss/_header.scss */
-  .item-header:hover .icon-header {
-    color: #FFF;
-    transition: color 2s;
-  }
 }
+/* line 6, ../sass/scss/_main.scss */
+.nav-tabs.nav-justified {
+  width: 100%;
+  border-bottom: 0;
+}
+
 @font-face {
   font-family: "mgs2menu";
   font-weight: bold;
   src: url("fonts/MGS2MENU.TTF");
+}
+/* line 19, ../sass/scss/_main.scss */
+ul {
+  margin: 0;
+  padding: 0;
+}
+/* line 22, ../sass/scss/_main.scss */
+ul li {
+  list-style: none;
+}
+
+/* line 27, ../sass/scss/_main.scss */
+a, a:active, a:focus, a:visited {
+  outline: none;
 }

@@ -67,8 +67,17 @@
     display: block;
     width: 18px;
   }
+  /* line 69, ../sass/scss/_header.scss */
+  header .search-form {
+    margin: auto;
+    padding: 15px;
+  }
+  /* line 72, ../sass/scss/_header.scss */
+  header .search-form input {
+    width: 250px;
+  }
 
-  /* line 67, ../sass/scss/_header.scss */
+  /* line 77, ../sass/scss/_header.scss */
   .main-menu {
     background: linear-gradient(#fff67d, #ffea00);
   }

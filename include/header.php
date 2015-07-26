@@ -43,33 +43,66 @@
 
 			<div class="header-second-row">
 				<div class="tab-content">
-					<div role="tabpanel" class="tab-pane fade" id="menu">
-						<h2>This is menu</h2>
-					</div>
-					<div role="tabpanel" class="tab-pane fade" id="search">
-						<form>
-							<fieldset>
-								<input placehorder="buscar..." type="search" />
-							</fieldset>
-						</form>
-					</div>
-					<div role="tabpanel" class="tab-pane fade" id="user">
-						<form>
-							<fieldset>
-								<legend>Login</legend>
 
-								<label>login:</label>
-								<input type="text" />
+					<!-- Menu Principal -->
+						<div role="tabpanel" class="tab-pane fade" id="menu">
+							<nav class="main-menu">
+								<ul class="" id="mainMenu">
+						            <li><a class="item-main-menu" href="sobre.php">Decorações</a></li>
+						            <li><a class="item-main-menu" href="#">Foto Livros</a></li>
+						            <li><a class="item-main-menu" href="#">Foto Presentes</a></li>
+						            <li><a class="item-main-menu" href="#">Serviços Digitais</a></li>
+						            <li><a class="item-main-menu" href="#">Painéis de Madeira</a></li>
+						            <li><a class="item-main-menu" href="#">Volta às Aulas</a></li>
+						        </ul>
+							</nav>
+						</div>
+					
+					<!-- Busca -->
+						<div role="tabpanel" class="tab-pane fade" id="search">
+							<form class="search-form">
+								<fieldset>
+									<input placeholder="buscar..." type="search" />
+									<input src="#" type="image" />
+								</fieldset>
+							</form>
+						</div>
+					
+					<!-- Usúario -->
+						<div role="tabpanel" class="tab-pane fade" id="user">
+							<form>
+								<fieldset>
+									<legend>Login</legend>
 
-								<label>senha:</label>
-								<input type="password" />
-								
-							</fieldset>
-						</form>
-					</div>
-					<div role="tabpanel" class="tab-pane fade" id="cart">
-						<h2>Cart</h2>
-					</div>
+									<label>login:</label>
+									<input type="text" />
+
+									<label>senha:</label>
+									<input type="password" />
+									
+								</fieldset>
+							</form>
+						</div>
+					
+					<!-- Carrinho -->
+						<div role="tabpanel" class="tab-pane fade" id="cart">
+							<div class="total-value">
+								<dl>
+									<dt>Valor Total:</dt>
+									<dd>R$</dd>
+								</dl>
+							</div>
+							<div class="products-cart">
+								<ul>
+									<li>
+										<img src="#" />
+										<span class="name">iPhone 6 128GB</span>
+										<span class="price">3.500,00</span>	
+										<a href="#">X</a>
+									</li>
+								</ul>
+							</div>
+						</div>
 				</div>
 			</div>
 		</div>
